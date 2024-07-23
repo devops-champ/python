@@ -9,6 +9,6 @@ print(vowels)
 #using enmurate()
 
 for index,char in enumerate(vowels):
-    vowels[index ]= vowels[index].upper()
+    vowels[index]= vowels[index].upper()
 
 print(vowels)      

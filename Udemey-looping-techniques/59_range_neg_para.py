@@ -14,6 +14,7 @@ print(list(range(1, 7, -2)))
 n=4
 
 for i in range(n, -1, -1):
-    print(end="") #for right centered 
-    print(" " * i, end="") #for left centered
+    print(" ", end ="")
+    #print(end="") #for left centered 
+    #print(" " * i, end="") #for right centered
     print("*" * (n-i))
