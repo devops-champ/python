@@ -45,4 +45,20 @@ for index, value in enumerate(z):
     else:
         z[index] = value * 10
         
-print(z)               
+print(z)
+
+
+
+
+
+rows =5 
+
+for i in range(rows):
+    print("========")
+    for j in range(rows-i):
+        if j % 2== 0:
+            print("*", end="")
+        else:
+            print("-", end="")
+            
+    print()                    
