@@ -10,9 +10,9 @@ for index, items in enumerate(words):
 users = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 
 
-# for user, status in users.copy().items():
-#     if status == 'inactive':
-#         del users[user]
+for user, status in users.copy().items():
+    if status == 'inactive':
+        del users[user]
         
 active_users = {}
 
