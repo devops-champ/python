@@ -9,3 +9,10 @@ def say_hello(name):
     
 print(say_hello('darshan'))
 
+
+
+def test_function(name='Default'):
+    return name
+
+
+print(test_function())
