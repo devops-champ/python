@@ -7,7 +7,7 @@ for elem in sorted(a, key=len):
     print(elem)
     
 
-
+print("=======================")
 #using custom function
     
 k1 = ["bc", "dda", "cd"]
@@ -17,6 +17,7 @@ k1 = ["bc", "dda", "cd"]
 # --> one parameter
 # --> based on parameter, return a value
 # --> value will be used in sorted method
+
 
 
 def rev_string(string):

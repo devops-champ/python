@@ -1,15 +1,16 @@
 
 
-#validate a user input. ask user to enter 0, 1, 2. if any value other than 0, 1, 2. it should say enter valid number
+#this program will take user input string and letter and checks if the letter is part of the string
 
 
-#print("Enter any number: 0, 1, or 2")
+print("Let's find if a letter is present in the string")
 
-is_valid =  False
+text = input("Enter the string: ")
+letter = input("Enter the letter: ")
 
-while not is_valid:
-    values = input("Enter any number: 0, 1, or 2: \n")
-    if values in ['0', '1', '2']:
-        is_valid = True
-        print(f"You entered {int(values)}")
-    
+
+for char in text:
+    print(char)
+    if char == letter:
+        print("Found it")
+        break
