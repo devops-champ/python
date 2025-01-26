@@ -154,4 +154,41 @@ def summer_69(arr):
     return count  
  
     
-print(summer_69([1,3,5]))                                      
+print(summer_69([1,3,5])) 
+
+
+#myfunc that takes in a string, and returns a matching string where every even letter is uppercase, and every odd letter is lowercas
+
+
+print("==============")
+
+def myfunc(text):
+    skyline = ''
+    
+    for index,word in enumerate(text):
+        
+        if index % 2 == 0:
+            skyline += word.lower()
+        else:
+            skyline += word.upper()    
+
+            
+    return skyline
+
+print(myfunc('Darshan'))
+
+
+print("==============")
+
+
+def spy_game(nums):
+    
+    for i in range(len(nums)-1):
+        if nums[i] ==0 and nums[i] == 7:
+            return True
+    return False
+
+
+print(spy_game([1,2,4,0,0,7,5]))
+        
+                                    
